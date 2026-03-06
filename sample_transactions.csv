@@ -1,0 +1,21 @@
+transaction_id,timestamp,amount,platform,description,manual_label
+TXN001,2024-01-06 09:15:00,320.50,Meituan,"Settlement amount lower than expected; deposit received 48 hours after transaction date",Weekend Batch Delay
+TXN002,2024-01-08 14:22:00,88.00,Douyin,"Order marked complete but payment not reflected in ledger after 2 hours",Gateway Timeout
+TXN003,2024-01-09 10:05:00,155.00,Meituan,"Same transaction ID appears twice in daily reconciliation report",Duplicate Entry
+TXN004,2024-01-10 16:45:00,42.00,Douyin,"Refund issued but original charge still showing as outstanding",Refund Mismatch
+TXN005,2024-01-13 11:30:00,210.00,Meituan,"Deposit amount does not match; difference traced to platform fee deduction not reflected in report",Fee Deduction Gap
+TXN006,2024-01-14 09:00:00,95.50,Douyin,"Payment gateway returned error code 504; transaction status unknown",Gateway Timeout
+TXN007,2024-01-15 13:15:00,430.00,Meituan,"Weekend batch grouped Monday deposits with Sunday transactions causing timing mismatch",Weekend Batch Delay
+TXN008,2024-01-16 17:00:00,67.00,Douyin,"Customer disputed charge; refund processed but ledger not updated",Refund Mismatch
+TXN009,2024-01-17 10:45:00,310.00,Meituan,"Transaction ID duplicated across two settlement files from same day",Duplicate Entry
+TXN010,2024-01-18 08:30:00,180.00,Douyin,"Platform fee rate changed mid-month; discrepancy between expected and actual deduction",Fee Deduction Gap
+TXN011,2024-01-20 15:20:00,525.00,Meituan,"Sunday holiday batch delayed; funds arrived Tuesday instead of Monday",Weekend Batch Delay
+TXN012,2024-01-21 11:00:00,73.50,Douyin,"Order cancelled post-payment; refund initiated but not yet reconciled in system",Refund Mismatch
+TXN013,2024-01-22 09:30:00,290.00,Meituan,"Duplicate settlement file submitted by payment processor; same transactions counted twice",Duplicate Entry
+TXN014,2024-01-23 14:10:00,115.00,Douyin,"Connection dropped mid-transaction; payment debited but order not confirmed",Gateway Timeout
+TXN015,2024-01-24 10:00:00,380.00,Meituan,"Platform deducted promotional subsidy not accounted for in internal revenue projection",Fee Deduction Gap
+TXN016,2024-01-27 09:15:00,440.00,Meituan,"Holiday weekend batch; 3-day delay in settlement deposit to bank account",Weekend Batch Delay
+TXN017,2024-01-28 13:45:00,58.00,Douyin,"Gateway timeout resulted in double charge; one charge needs to be reversed",Gateway Timeout
+TXN018,2024-01-29 11:20:00,195.00,Meituan,"Refund for damaged item processed twice due to system error",Refund Mismatch
+TXN019,2024-01-30 16:00:00,265.00,Douyin,"Transaction appears in both January and February settlement files due to cutoff timing",Duplicate Entry
+TXN020,2024-01-31 10:30:00,142.00,Meituan,"Year-end platform fee adjustment applied retroactively; not captured in original reconciliation",Fee Deduction Gap
