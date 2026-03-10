@@ -8,6 +8,8 @@ A lightweight Python workflow that uses an LLM (GPT-4o-mini) to automatically cl
 
 In a high-velocity transaction environment (400–600 orders/day across Douyin Local Life and Meituan), exception triage requires manually labeling each discrepancy with a reason code before routing it to the correct resolution workflow. This manual step is time-consuming and inconsistent across reviewers.
 
+This project extends an existing fraud monitoring pipeline (see: End-to-End Fraud Monitoring Risk Strategy Pipeline) by automating the manual reason-code labeling step.
+
 This project automates the classification step using an LLM, allowing analysts to focus manual review capacity on edge cases rather than routine labeling.
 
 ---
